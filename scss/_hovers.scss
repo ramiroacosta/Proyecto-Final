@@ -1,0 +1,12 @@
+.nav-link:hover {
+    background-color: $color-hovers;
+    border-radius: 20px;
+    color: $color-background !important;
+    border: none;
+  }
+  .Imagen-header:hover {
+    transform: rotateY(180deg);
+  }
+  .imagen-html:hover, .imagen-css:hover, .imagen-jv:hover {
+    transform: rotateY(30deg);
+  }

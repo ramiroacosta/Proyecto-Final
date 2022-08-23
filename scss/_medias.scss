@@ -1,0 +1,76 @@
+@media screen and (max-width: 803px) {
+    .estilo-header {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+  
+      h1 {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        text-align: center;
+        font-size: 2em;
+      }
+    }
+    .estilos-animacion {
+      font-size: 1em;
+    }
+  
+    .tamano-span {
+      height: auto;
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+    }
+  
+    .estilo-sobremi, .estilo-conocimiento, .estilo-contacto, .estilos-footer, .estilos-inicio-proy {
+      width: auto;
+    }
+    .estilo-conocimiento {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .imagen-html, .imagen-css, .imagen-jv {
+      width: 100px;
+      height: 100px;
+      margin-top: 15px;
+    }
+  
+    .textarea1 {
+      display: none;
+    }
+  
+    .lista-prueba {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .lista-ul {
+      text-align: center;
+      padding-top: 0px;
+    }
+  
+    .redes-sociales {
+      justify-content: center;
+    }
+  
+    .Imagen-header {
+      width: 200px;
+      height: 175px;
+    }
+  
+    .estilo-pagina2-exp, .estilo-pagina2-residencia, .estilo-academica, .estilos-inicio {
+      width: auto;
+    }
+  
+    .estilos-cont-tec {
+      width: auto !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  
+    .estilos-contenedor1, .estilos-foro, .estilos-inicio-servicios {
+      width: auto;
+    }
+  }

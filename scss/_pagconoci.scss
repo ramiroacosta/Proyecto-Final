@@ -1,0 +1,75 @@
+.estilos-inicio {
+    @include cajas;
+    @include shadows;
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 1.5em !important;
+      span {
+        border-bottom: 2px solid #e99dcb;
+      }
+    }
+    p {
+      color: $color-letras;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px;
+      line-height: 30px;
+    }
+}
+.estilo-academica {
+    background-color: $color-background;
+    border-radius: 20px;
+    margin-top: 70px !important;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: $width-body;
+    margin: auto;
+    @include shadows;
+    text-align: center;
+  
+    h1 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 2em !important;
+      span {
+        border-bottom: 2px solid #e99dcb;
+      }
+    }
+    h2 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 1.5em !important;
+      span {
+        border-bottom: 2px solid #e99dcb;
+      }
+    }
+  
+  
+    p {
+      color: $color-letras;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px;
+      line-height: 30px;
+    }
+  }
+  
+  
+  .estilos-cont-tec {
+    width: $width-body !important;
+    @include cajas;
+    @include shadows;
+    margin: auto;
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+    }
+  }

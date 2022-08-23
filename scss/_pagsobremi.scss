@@ -1,0 +1,57 @@
+.estilo-pagina2-exp {
+    background-color: $color-background;
+    border-radius: 20px;
+    margin-top: 70px !important;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: $width-body;
+    margin: auto;
+    @include shadows;
+    text-align: center;
+  
+    h1 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 2em !important;
+      span {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  
+    p {
+      color: $color-letras;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px;
+      line-height: 30px;
+    }
+  }
+  
+  .subrayado-exp {
+    border-bottom: 2px solid $border-color;
+  }
+  
+  .estilo-pagina2-residencia {
+    background-color: $color-background;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: $width-body;
+    margin: auto;
+    margin-top: 20px;
+    @include shadows;
+    h2 {
+      text-transform: uppercase;
+      color: $color-letras;
+      font-weight: bold !important;
+    }
+    .card-sobremi {
+      width: auto;
+    }
+  }

@@ -1,0 +1,83 @@
+.estilo-sobremi {
+    @include cajas;
+    @include shadows;
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+      color: $color-letras;
+      margin-top: 10px;
+      font-weight: bold !important;
+      font-size: 1.5em !important;
+      span {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  
+    p {
+      color: $color-letras;
+      padding-top: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  /*estilos-conocimiento*/
+  
+  .estilo-conocimiento {
+    @include cajas;
+    @include shadows;
+    text-align: center;
+    text-transform: uppercase;
+    h2 {
+      padding-bottom: 15px;
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 1.5em !important;
+      span {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  }
+  
+  
+  /*estilos-contacto*/
+  
+  .estilo-contacto {
+    @include cajas;
+    @include shadows;
+    text-align: center;
+    text-transform: uppercase;
+    
+    label {
+      color: $color-letras;
+    }
+    h2 {
+      @extend label;
+      font-weight: bold !important;
+      font-size: 1.5em !important;
+      span {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  
+    div {
+      font-family: 'Nunito', sans-serif !important;
+    }
+  }
+  
+  .textarea {
+    resize: none;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col-12 {
+    margin-top: 10px;
+  }
+  .form-control {
+    font-weight: bold !important;
+  }

@@ -1,0 +1,52 @@
+.estilo-header {
+    background-color: $color-background;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: $width-body;
+    height: auto;
+    margin: auto;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    @include shadows;
+
+  
+    h1 {
+      font-size: 50px;
+      text-transform: uppercase;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      padding-right: 50px;
+      color: $color-letras;
+      font-weight: bold !important;
+    }
+  }
+  
+  .estilos-animacion {
+    font-size: 38px;
+    text-transform: lowercase;
+    text-align: center;
+    color: $color-background;
+    margin: auto;
+  }
+  
+  .rotate p {
+    width: max-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: $color-hovers;
+    transform-origin: 10% 75%;
+    animation: rotate 8s;
+    animation-iteration-count: 3;
+  }
+  .estilos-animacion::first-letter {
+    text-transform: uppercase;
+  }
+  .tamano-span {
+    height: 200px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+  }

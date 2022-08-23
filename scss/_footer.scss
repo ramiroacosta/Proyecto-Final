@@ -1,0 +1,15 @@
+.estilos-footer {
+    @include cajas;
+    @include shadows;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    p {
+      color: $color-letras;
+      margin: 0;
+    }
+  
+    span::before {
+      content: "♥";
+    }
+  }

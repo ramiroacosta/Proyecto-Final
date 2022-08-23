@@ -1,0 +1,10 @@
+$areas: (
+    headercont: header,
+    main: main,
+    footer: footer,
+);
+@each $area, $selector in $areas {
+    .estilos-#{$area} {
+        grid-area: $selector;
+    }
+}

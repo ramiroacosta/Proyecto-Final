@@ -1,0 +1,40 @@
+.estilos-inicio-servicios {
+  @include cajas;
+  @include shadows;
+  text-transform: uppercase;
+  text-align: center;
+  h2 {
+    text-transform: uppercase;
+    color: $color-letras;
+    font-weight: bold !important;
+    font-size: 1.5em !important;
+    span {
+      border-bottom: 2px solid $border-color;
+    }
+  }
+}
+.estilos-foro {
+    background-color: $color-background;
+    border-radius: 20px;
+    margin-top: 70px !important;
+    padding: 15px 10px 15px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: $width-body;
+    margin: auto;
+    margin-top: 20px;
+    @include shadows;
+    h1 {
+      color: $color-letras;
+      font-weight: bold !important;
+      font-size: 2em !important;
+      span {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+    
+  }
+  .row {
+    justify-content: center;
+  }
+
